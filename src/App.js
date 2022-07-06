@@ -13,7 +13,7 @@ function App() {
             <Navigation />
             <Search />
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/Rick-and-Morty-App" element={<Home />} />
               <Route path="/results/:search" element={<Results />} />
             </Routes>
         </div>
